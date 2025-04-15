@@ -1,7 +1,7 @@
 export default function TerminalEntry({ title, description, tech, link }) {
   return (
     <div className="mb-8 text-sm font-mono text-black space-y-1">
-      <div>{`> ${title}`}</div>
+      <div className="font-bold">{`> ${title}`}</div>
 
       <div className="flex items-start pl-4">
         <div className="min-w-[2rem]">└──</div>

@@ -19,16 +19,16 @@ export default function Projects() {
       link: `${t("projects.2.link")}`,
     },
     {
-      title: `${t("projects.2.title")}`,
-      description: `${t("projects.2.description")}`,
-      tech: `${t("projects.2.tech")}`,
-      link: `${t("projects.2.link")}`,
+      title: `${t("projects.3.title")}`,
+      description: `${t("projects.3.description")}`,
+      tech: `${t("projects.3.tech")}`,
+      link: `${t("projects.3.link")}`,
     },
     {
-      title: `${t("projects.2.title")}`,
-      description: `${t("projects.2.description")}`,
-      tech: `${t("projects.2.tech")}`,
-      link: `${t("projects.2.link")}`,
+      title: `${t("projects.4.title")}`,
+      description: `${t("projects.4.description")}`,
+      tech: `${t("projects.4.tech")}`,
+      link: `${t("projects.4.link")}`,
     },
   ];
 

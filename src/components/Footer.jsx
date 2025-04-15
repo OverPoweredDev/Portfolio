@@ -56,6 +56,8 @@ export default function Footer() {
               </div>
               <button
                 type="submit"
+                disabled
+                title="Messages don't work yet"
                 className="border border-light-text dark:border-dark-text px-4 py-2 hover:bg-black hover:text-white transition"
               >
                 {t("contact.send-message")}

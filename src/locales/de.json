@@ -78,6 +78,6 @@
     "message-recieved": "Nachricht erhalten! Ich melde mich bald bei dir."
   },
   "footer": {
-    "built-with": "Erstellt mit React + Tailwind"
+    "built-with": "Erstellt mit React"
   }
 }

@@ -6,7 +6,7 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "Hello, I am Omkar.",
+    "greeting": "Hello, I'm Omkar.",
     "tagline": "Right now, I'm a Software Analyst at Deutsche Bank. I enjoy contributing to Open Source Projects in my spare time.",
     "resume": "Download Resume"
   },
@@ -78,6 +78,6 @@
     "message-recieved": "Message received! I’ll get back to you soon."
   },
   "footer": {
-    "built-with": "Built with React + Tailwind"
+    "built-with": "Built with React"
   }
 }

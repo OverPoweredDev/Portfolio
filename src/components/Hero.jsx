@@ -33,8 +33,8 @@ export default function Hero() {
       className="hero-section flex md:h-[90vh] justify-between items-center px-12 bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text pt-20"
     >
       <div className="flex flex-col justify-center pr-8 w-full md:w-2/3">
-        <h2 className="text-2xl font-bold md:text-5xl md:font-normal font-mono my-14">{typedText}</h2>
-        <p className="text-lg md:text-xl font-mono border-l-4 pl-4 border-light-text dark:border-dark-text">
+        <h2 className="text-xl font-bold md:text-5xl md:font-normal font-mono my-14">{typedText}</h2>
+        <p className="text-md md:text-xl font-mono border-l-4 pl-4 border-light-text dark:border-dark-text">
           {t("hero.tagline")}
         </p>
         <a

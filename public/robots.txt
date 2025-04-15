@@ -1,3 +1,7 @@
-# https://www.robotstxt.org/robotstxt.html
+# Allow all search engines to crawl the site
 User-agent: *
-Disallow:
+Allow: /
+
+# Specify the sitemap for search engines
+Sitemap: https://omkarprabhune.com/sitemap.xml
+Sitemap: https://www.omkarprabhune.com/sitemap.xml
