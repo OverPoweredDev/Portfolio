@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I am Omkar.",
+    "tagline": "Right now, I'm a Software Analyst at Deutsche Bank. I enjoy contributing to Open Source Projects in my spare time.",
+    "resume": "Download Resume"
+  },
+  "timeline": {
+    "1": {
+      "title": "Senior Software Analyst",
+      "location": "Deutsche Bank",
+      "date": "Present",
+      "description": "I am currently working as a Senior Software Analyst at Deutsche Bank, where I am involved in developing and maintaining software solutions for the bank's operations. My role includes collaborating with cross-functional teams to deliver high-quality software products."
+    },
+    "2": {
+      "title": "Bachelor in Computer Engineering",
+      "location": "Vishwakarma Institute of Technology",
+      "date": "August 2023",
+      "description": "I studied computer engineering with a focus on software development and machine learning. After 4 years of study, I graduated with a GPA of 9.91 which earned me the Awards of Best Outgoing Student and Overall Topper within my batch."
+    },
+    "3": {
+      "title": "Software Intern",
+      "location": "Deutsche Bank",
+      "date": "July 2022",
+      "description": "I worked as an Intern contributing to projects (Dev and on Prod) in Treasury Technology. Interacted with the technologies being used in the industry today in fields like web development, systems design and database management."
+    },
+    "4": {
+      "title": "Open Source Volunteer",
+      "location": "Google Summer of Code, Apertium",
+      "date": "May 2021",
+      "description": "My project was to build the Apertium Web Extension, a cross-browser supported extension that serves as an interface for the Apertium translation service. It allows for translation of words, phrases, entire webpages as well as for hover-on gist translations."
+    }
+  },
+  "projects": {
+    "1": {
+      "title": "This Portfolio",
+      "description": "A one-page terminal-style site built with React and Tailwind.",
+      "tech": "React, Tailwind, Vite",
+      "link": "https://yourportfolio.com"
+    },
+    "2": {
+      "title": "Junior",
+      "description": "Junior is a bookmarking app specialised towards online webnovels. Built in Flutter and Dart, it is an open-source Android app that helps you catalogue the novel you're reading and your progress on it. Apart from these details, you can also log your personal rating and any chapter notes for the current novel.",
+      "tech": "Flutter, Dart, Android",
+      "link": "https://github.com/OverPoweredDev/Junior"
+    },
+    "3": {
+      "title": "Apertium WebExt",
+      "description": "A Cross-browser WebExtension Frontend for the Apertium APy service. Apertium is a Open Source machine translation organisation, aimed at related-language pairs but expanded to deal with more divergent language pairs. This extension deals with translation of words, phrases and entire webpages.",
+      "tech": "JavaScript, HTML, CSS",
+      "link": "https://github.com/apertium/apertium-webext"
+    },
+    "4": {
+      "title": "Dope",
+      "description": "Dope is a dynamically typed, automatically managed programming language with an Object Oriented Paradigm as well as an Imperative one. It can be run either on a text file or through using the REPL (Read, Execute, Print, Loop) Shell. Implemented in Java, it operates on the Java Virtual Machine (JVM) and also uses the inbuilt Garbage Collector built into the VM. The interpreter itself runs using a recursive tree-walk approach.",
+      "tech": "Java",
+      "link": "https://github.com/OverPoweredDev/dope"
+    }
+  },
+  "skills": {
+    "tech-stack": "Tech Stack",
+    "tools-and-frameworks": "Tools & Frameworks",
+    "programming-languages": "Programming Languages",
+    "technical-concepts": "Technical Concepts"
+  },
+  "contact": {
+    "send-me-a-message": "Send me a message",
+    "find-me-online": "Find me online",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send-message": "Send Message",
+    "message-recieved": "Message received! I’ll get back to you soon."
+  },
+  "footer": {
+    "built-with": "Built with React + Tailwind"
+  }
+}

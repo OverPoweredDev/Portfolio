@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "about": "Profil",
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, Ich bin Omkar.",
+    "tagline": "Zurzeit arbeite ich als Software Analyst bei der Deutschen Bank. In meiner Freizeit engagiere ich mich gerne in Open-Source-Projekten.",
+    "resume": "Lebenslauf herunterladen"
+  },
+  "timeline": {
+    "1": {
+      "title": "Senior Software Analyst",
+      "location": "Deutsche Bank",
+      "date": "Heute",
+      "description": "Ich arbeite derzeit als Senior Software Analyst bei der Deutschen Bank und bin dort an der Entwicklung und Wartung von Softwarelösungen für den Bankbetrieb beteiligt. Dabei arbeite ich mit funktionsübergreifenden Teams zusammen, um hochwertige Softwareprodukte zu liefern."
+    },
+    "2": {
+      "title": "Bachelor in Computer Engineering",
+      "location": "Vishwakarma Institute of Technology",
+      "date": "August 2023",
+      "description": "Ich habe Computertechnik mit Schwerpunkt auf Softwareentwicklung und maschinelles Lernen studiert. Nach vier Jahren Studium habe ich mit einem GPA von 9,91 abgeschlossen und wurde als Bester Absolvent meines Jahrgangs ausgezeichnet."
+    },
+    "3": {
+      "title": "Softwarepraktikant",
+      "location": "Deutsche Bank",
+      "date": "Juli 2022",
+      "description": "Ich arbeitete als Praktikant an Projekten (Entwicklung und Produktion) im Bereich Treasury Technology mit. Dabei konnte ich moderne Technologien aus den Bereichen Webentwicklung, Systemdesign und Datenbankverwaltung kennenlernen."
+    },
+    "4": {
+      "title": "Open-Source-Freiwilliger",
+      "location": "Google Summer of Code, Apertium",
+      "date": "Mai 2021",
+      "description": "Mein Projekt bestand darin, die Apertium Web Extension zu entwickeln – eine browserübergreifende Erweiterung, die als Schnittstelle für den Übersetzungsdienst Apertium dient. Sie ermöglicht die Übersetzung von Wörtern, Sätzen, ganzen Webseiten sowie eine schnelle Übersetzung per Hover-Effekt."
+    }
+  },
+  "projects": {
+    "1": {
+      "title": "Dieses Portfolio",
+      "description": "Eine einseitige Website im Terminal-Stil, gebaut mit React und Tailwind.",
+      "tech": "React, Tailwind, Vite",
+      "link": "https://yourportfolio.com"
+    },
+    "2": {
+      "title": "Junior",
+      "description": "Junior ist eine Bookmarking-App speziell für Online-Webnovels. Die App ist Open Source, für Android verfügbar und wurde mit Flutter und Dart entwickelt. Sie hilft dabei, den Lesefortschritt festzuhalten, Bewertungen zu speichern und Notizen zu einzelnen Kapiteln zu machen.",
+      "tech": "Flutter, Dart, Android",
+      "link": "https://github.com/OverPoweredDev/Junior"
+    },
+    "3": {
+      "title": "Apertium WebExt",
+      "description": "Eine browserübergreifende WebExtension-Oberfläche für den Apertium-APy-Dienst. Apertium ist ein Open-Source-Projekt für maschinelle Übersetzung, das ursprünglich für verwandte Sprachen gedacht war, aber inzwischen auch entferntere Sprachpaare unterstützt. Diese Erweiterung ermöglicht die Übersetzung von Wörtern, Sätzen und ganzen Webseiten.",
+      "tech": "JavaScript, HTML, CSS",
+      "link": "https://github.com/apertium/apertium-webext"
+    },
+    "4": {
+      "title": "Dope",
+      "description": "Dope ist eine dynamisch typisierte, automatisch verwaltete Programmiersprache mit objektorientiertem und imperativem Paradigma. Sie kann sowohl über Textdateien als auch über eine REPL-Shell (Read, Execute, Print, Loop) genutzt werden. Die in Java geschriebene Sprache läuft auf der Java Virtual Machine (JVM) und verwendet den integrierten Garbage Collector. Der Interpreter basiert auf einem rekursiven Tree-Walk-Ansatz.",
+      "tech": "Java",
+      "link": "https://github.com/OverPoweredDev/dope"
+    }
+  },
+  "skills": {
+    "tech-stack": "Technologiestack",
+    "tools-and-frameworks": "Werkzeuge & Frameworks",
+    "programming-languages": "Programmiersprachen",
+    "technical-concepts": "Technische Konzepte"
+  },
+  "contact": {
+    "send-me-a-message": "Schick mir eine Nachricht",
+    "find-me-online": "Finde mich online",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send-message": "Nachricht senden",
+    "message-recieved": "Nachricht erhalten! Ich melde mich bald bei dir."
+  },
+  "footer": {
+    "built-with": "Erstellt mit React + Tailwind"
+  }
+}
