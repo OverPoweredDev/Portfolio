@@ -78,36 +78,78 @@ export default function Skills() {
         {t("skills.tools-and-frameworks")}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-2 text-sm">
-        {toolsAndFrameworks.map((skill) => (
-          <div key={skill.name} className="flex items-center">
-            <span className="w-40">{skill.name}</span>
-            <span>{getBar(skill.level)}</span>
-          </div>
-        ))}
+        {toolsAndFrameworks.slice(0, 6).map(
+          (
+            skill // Show only 6 skills on mobile
+          ) => (
+            <div key={skill.name} className="flex items-center">
+              <span className="w-40">{skill.name}</span>
+              <span>{getBar(skill.level)}</span>
+            </div>
+          )
+        )}
+        {toolsAndFrameworks.slice(6).map(
+          (
+            skill // Show remaining skills only on larger screens
+          ) => (
+            <div key={skill.name} className="hidden md:flex items-center">
+              <span className="w-40">{skill.name}</span>
+              <span>{getBar(skill.level)}</span>
+            </div>
+          )
+        )}
       </div>
 
       <div className="mt-12 mb-4 text-md font-bold">
         {t("skills.programming-languages")}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-2 text-sm">
-        {programmingLanguages.map((skill) => (
-          <div key={skill.name} className="flex items-center">
-            <span className="w-40">{skill.name}</span>
-            <span>{getBar(skill.level)}</span>
-          </div>
-        ))}
+        {programmingLanguages.slice(0, 6).map(
+          (
+            skill // Show only 6 skills on mobile
+          ) => (
+            <div key={skill.name} className="flex items-center">
+              <span className="w-40">{skill.name}</span>
+              <span>{getBar(skill.level)}</span>
+            </div>
+          )
+        )}
+        {programmingLanguages.slice(6).map(
+          (
+            skill // Show remaining skills only on larger screens
+          ) => (
+            <div key={skill.name} className="hidden md:flex items-center">
+              <span className="w-40">{skill.name}</span>
+              <span>{getBar(skill.level)}</span>
+            </div>
+          )
+        )}
       </div>
 
       <div className="mt-12 mb-4 text-md font-bold">
         {t("skills.technical-concepts")}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-2 text-sm">
-        {technicalConcepts.map((skill) => (
-          <div key={skill.name} className="flex items-center">
-            <span className="w-40">{skill.name}</span>
-            <span>{getBar(skill.level)}</span>
-          </div>
-        ))}
+        {technicalConcepts.slice(0, 6).map(
+          (
+            skill // Show only 6 skills on mobile
+          ) => (
+            <div key={skill.name} className="flex items-center">
+              <span className="w-40">{skill.name}</span>
+              <span>{getBar(skill.level)}</span>
+            </div>
+          )
+        )}
+        {technicalConcepts.slice(6).map(
+          (
+            skill // Show remaining skills only on larger screens
+          ) => (
+            <div key={skill.name} className="hidden md:flex items-center">
+              <span className="w-40">{skill.name}</span>
+              <span>{getBar(skill.level)}</span>
+            </div>
+          )
+        )}
       </div>
     </div>
   );
