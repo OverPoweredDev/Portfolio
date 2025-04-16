@@ -91,7 +91,7 @@ export default function Footer() {
           )}
         </div>
 
-        <div>
+        <address className="not-italic">
           <h2 className="text-xl mb-4">&gt; {t("contact.find-me-online")}</h2>
           <ul className="space-y-3">
             <li>
@@ -123,7 +123,7 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-        </div>
+        </address>
       </div>
 
       <div className="mt-12 text-center border-t border-light-text dark:border-dark-text py-4 text-xs md:text-sm">

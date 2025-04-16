@@ -36,7 +36,9 @@ export default function Projects() {
     <section id="projects" className="py-12 px-4">
       <TerminalWindow>
         {projectList.map((proj, idx) => (
-          <TerminalEntry key={idx} {...proj} />
+          <article key={idx}>
+            <TerminalEntry {...proj} />
+          </article>
         ))}
 
         <pre className="whitespace-pre-wrap text-sm font-mono text-light-text dark:text-dark-text">

@@ -52,7 +52,7 @@ export default function Timeline() {
           className="ml-[2rem] md:ml-[10rem] mt-[2rem] border-l-2 border-light-text dark:border-dark-text pt-8"
         >
           {timelineData.map((item, idx) => (
-            <div key={idx} className="relative mb-10 mr-8">
+            <article key={idx} className="relative mb-10 mr-8">
               <div
                 title="timeline-dot"
                 className="absolute -left-[7px] top-1 w-[12px] h-[12px] border-2 border-light-text dark:border-dark-text bg-light-bg dark:bg-dark-bg rounded-full"
@@ -69,7 +69,7 @@ export default function Timeline() {
                 <p className="text-sm opacity-60 italic">{item.date}</p>
                 <p className="mt-2 text-sm max-w-5xl">{item.description}</p>
               </div>
-            </div>
+            </article>
           ))}
         </div>
 
