@@ -1,16 +1,37 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useTranslation } from "react-i18next";
+import emailjs from "@emailjs/browser";
 
 export default function Footer() {
   const { t } = useTranslation();
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const form = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setSubmitted(true);
-    // Here you would handle form submission (e.g., API call)
+    setLoading(true);
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setSubmitted(true);
+          setLoading(false);
+        },
+        (error) => {
+          console.error("EmailJS Error:", error.text);
+          setLoading(false);
+          alert("Something went wrong. Please try again.");
+        }
+      );
   };
 
   return (
@@ -26,11 +47,12 @@ export default function Footer() {
           {submitted ? (
             <p className="text-mono">&gt; {t("contact.message-recieved")}</p>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form ref={form} onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label htmlFor="name">{t("contact.name")} :</label>
                 <input
                   type="text"
+                  name="from_name"
                   id="name"
                   className="w-full border border-light-text dark:border-dark-text p-2 mt-1"
                   required
@@ -40,6 +62,7 @@ export default function Footer() {
                 <label htmlFor="email">{t("contact.email")} :</label>
                 <input
                   type="email"
+                  name="reply_to"
                   id="email"
                   className="w-full border border-light-text dark:border-dark-text p-2 mt-1"
                   required
@@ -48,6 +71,7 @@ export default function Footer() {
               <div>
                 <label htmlFor="message">{t("contact.message")} :</label>
                 <textarea
+                  name="message"
                   id="message"
                   rows="4"
                   className="w-full border border-light-text dark:border-dark-text p-2 mt-1"
@@ -56,11 +80,12 @@ export default function Footer() {
               </div>
               <button
                 type="submit"
-                disabled
-                title="Messages don't work yet"
+                disabled={loading}
                 className="border border-light-text dark:border-dark-text px-4 py-2 hover:bg-black hover:text-white transition"
               >
-                {t("contact.send-message")}
+                {loading
+                  ? t("contact.sending-message")
+                  : t("contact.send-message")}
               </button>
             </form>
           )}

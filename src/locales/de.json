@@ -75,6 +75,7 @@
     "email": "E-Mail",
     "message": "Nachricht",
     "send-message": "Nachricht senden",
+    "sending-message": "Senden...",
     "message-recieved": "Nachricht erhalten! Ich melde mich bald bei dir."
   },
   "footer": {

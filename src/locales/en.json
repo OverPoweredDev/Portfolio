@@ -75,6 +75,7 @@
     "email": "Email",
     "message": "Message",
     "send-message": "Send Message",
+    "sending-message": "Sending...",
     "message-recieved": "Message received! I’ll get back to you soon."
   },
   "footer": {
