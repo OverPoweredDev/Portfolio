@@ -54,7 +54,7 @@ export default function Footer() {
                   type="text"
                   name="from_name"
                   id="name"
-                  className="w-full border border-light-text dark:border-dark-text p-2 mt-1"
+                  className="w-full border border-light-text dark:border-dark-text text-light-text dark:text-dark-text bg-light-bg dark:bg-dark-bg p-2 mt-1"
                   required
                 />
               </div>
@@ -64,7 +64,7 @@ export default function Footer() {
                   type="email"
                   name="reply_to"
                   id="email"
-                  className="w-full border border-light-text dark:border-dark-text p-2 mt-1"
+                  className="w-full border border-light-text dark:border-dark-text text-light-text dark:text-dark-text bg-light-bg dark:bg-dark-bg p-2 mt-1"
                   required
                 />
               </div>
@@ -74,7 +74,7 @@ export default function Footer() {
                   name="message"
                   id="message"
                   rows="4"
-                  className="w-full border border-light-text dark:border-dark-text p-2 mt-1"
+                  className="w-full border border-light-text dark:border-dark-text text-light-text dark:text-dark-text bg-light-bg dark:bg-dark-bg p-2 mt-1"
                   required
                 ></textarea>
               </div>
