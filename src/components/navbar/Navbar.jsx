@@ -19,26 +19,6 @@ export default function Navbar() {
           <li>
             <LanguageToggle />
           </li>
-          <li className="hidden md:block">
-            <a href="#about" className="hover:underline">
-              {t("navbar.about")}
-            </a>
-          </li>
-          <li className="hidden md:block">
-            <a href="#projects" className="hover:underline">
-              {t("navbar.projects")}
-            </a>
-          </li>
-          <li className="hidden md:block">
-            <a href="#skills" className="hover:underline">
-              {t("navbar.skills")}
-            </a>
-          </li>
-          <li className="hidden md:block">
-            <a href="#contact" className="hover:underline">
-              {t("navbar.contact")}
-            </a>
-          </li>
         </ul>
       </nav>
     </header>

@@ -72,10 +72,10 @@ export default function Skills() {
 
   return (
     <div id="skills" className="mx-20 mb-24 mt-4 font-mono whitespace-nowrap">
-      <div className="mb-6 text-3xl font-bold">{t("skills.tech-stack")}</div>
+      <div className="mb-6 text-3xl font-bold">{t("homepage.skills.tech-stack")}</div>
 
       <div className="mt-12 mb-4 text-md font-bold">
-        {t("skills.tools-and-frameworks")}
+        {t("homepage.skills.tools-and-frameworks")}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-2 text-sm">
         {toolsAndFrameworks.slice(0, 6).map(
@@ -101,7 +101,7 @@ export default function Skills() {
       </div>
 
       <div className="mt-12 mb-4 text-md font-bold">
-        {t("skills.programming-languages")}
+        {t("homepage.skills.programming-languages")}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-2 text-sm">
         {programmingLanguages.slice(0, 6).map(
@@ -127,7 +127,7 @@ export default function Skills() {
       </div>
 
       <div className="mt-12 mb-4 text-md font-bold">
-        {t("skills.technical-concepts")}
+        {t("homepage.skills.technical-concepts")}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-2 text-sm">
         {technicalConcepts.slice(0, 6).map(

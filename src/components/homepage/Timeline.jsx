@@ -5,28 +5,28 @@ export default function Timeline() {
 
   const timelineData = [
     {
-      title: `${t("timeline.1.title")}`,
-      location: `${t("timeline.1.location")}`,
-      date: `${t("timeline.1.date")}`,
-      description: `${t("timeline.1.description")}`,
+      title: `${t("homepage.timeline.1.title")}`,
+      location: `${t("homepage.timeline.1.location")}`,
+      date: `${t("homepage.timeline.1.date")}`,
+      description: `${t("homepage.timeline.1.description")}`,
     },
     {
-      title: `${t("timeline.2.title")}`,
-      location: `${t("timeline.2.location")}`,
-      date: `${t("timeline.2.date")}`,
-      description: `${t("timeline.2.description")}`,
+      title: `${t("homepage.timeline.2.title")}`,
+      location: `${t("homepage.timeline.2.location")}`,
+      date: `${t("homepage.timeline.2.date")}`,
+      description: `${t("homepage.timeline.2.description")}`,
     },
     {
-      title: `${t("timeline.3.title")}`,
-      location: `${t("timeline.3.location")}`,
-      date: `${t("timeline.3.date")}`,
-      description: `${t("timeline.3.description")}`,
+      title: `${t("homepage.timeline.3.title")}`,
+      location: `${t("homepage.timeline.3.location")}`,
+      date: `${t("homepage.timeline.3.date")}`,
+      description: `${t("homepage.timeline.3.description")}`,
     },
     {
-      title: `${t("timeline.4.title")}`,
-      location: `${t("timeline.4.location")}`,
-      date: `${t("timeline.4.date")}`,
-      description: `${t("timeline.4.description")}`,
+      title: `${t("homepage.timeline.4.title")}`,
+      location: `${t("homepage.timeline.4.location")}`,
+      date: `${t("homepage.timeline.4.date")}`,
+      description: `${t("homepage.timeline.4.description")}`,
     },
   ];
 

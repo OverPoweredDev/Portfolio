@@ -42,14 +42,14 @@ export default function Footer() {
       >
         <div>
           <h2 className="text-xl mb-4">
-            &gt; {t("contact.send-me-a-message")}
+            &gt; {t("homepage.contact.send-me-a-message")}
           </h2>
           {submitted ? (
-            <p className="text-mono">&gt; {t("contact.message-recieved")}</p>
+            <p className="text-mono">&gt; {t("homepage.contact.message-recieved")}</p>
           ) : (
             <form ref={form} onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label htmlFor="name">{t("contact.name")} :</label>
+                <label htmlFor="name">{t("homepage.contact.name")} :</label>
                 <input
                   type="text"
                   name="from_name"
@@ -59,7 +59,7 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <label htmlFor="email">{t("contact.email")} :</label>
+                <label htmlFor="email">{t("homepage.contact.email")} :</label>
                 <input
                   type="email"
                   name="reply_to"
@@ -69,7 +69,7 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <label htmlFor="message">{t("contact.message")} :</label>
+                <label htmlFor="message">{t("homepage.contact.message")} :</label>
                 <textarea
                   name="message"
                   id="message"
@@ -84,15 +84,15 @@ export default function Footer() {
                 className="border border-light-text dark:border-dark-text px-4 py-2 hover:bg-black hover:text-white transition"
               >
                 {loading
-                  ? t("contact.sending-message")
-                  : t("contact.send-message")}
+                  ? t("homepage.contact.sending-message")
+                  : t("homepage.contact.send-message")}
               </button>
             </form>
           )}
         </div>
 
         <address className="not-italic">
-          <h2 className="text-xl mb-4">&gt; {t("contact.find-me-online")}</h2>
+          <h2 className="text-xl mb-4">&gt; {t("homepage.contact.find-me-online")}</h2>
           <ul className="space-y-3">
             <li>
               <a
@@ -119,7 +119,7 @@ export default function Footer() {
                 href="mailto:omkar@prabhune.com"
                 className="flex items-center gap-2 hover:underline"
               >
-                <MdEmail /> {t("contact.email")}
+                <MdEmail /> {t("homepage.contact.email")}
               </a>
             </li>
           </ul>
@@ -127,7 +127,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-12 text-center border-t border-light-text dark:border-dark-text py-4 text-xs md:text-sm">
-        omkarprabhune.com © 2025 — {t("footer.built-with")}
+        omkarprabhune.com © 2025 — {t("homepage.footer.built-with")}
       </div>
     </footer>
   );

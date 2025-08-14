@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { useTheme } from "../components/ThemeContext";
+import { useTheme } from "../../components/ThemeContext";
 
-import heroSVG from "../assets/hero.svg";
-import heroBgSVG from "../assets/hero-bg.svg";
+import heroSVG from "../../assets/hero.svg";
+import heroBgSVG from "../../assets/hero-bg.svg";
 
 export default function Hero() {
   const [typedText, setTypedText] = useState("H");
@@ -13,7 +13,7 @@ export default function Hero() {
   useEffect(() => {
     let i = 1;
 
-    const fullText = `${t("hero.greeting")}`;
+    const fullText = `${t("homepage.hero.greeting")}`;
 
     const interval = setInterval(() => {
       setTypedText((prev) => fullText.slice(0, i + 1));
@@ -38,14 +38,14 @@ export default function Hero() {
             {typedText}
           </h2>
           <p className="text-md md:text-xl font-mono border-l-4 pl-4 border-light-text dark:border-dark-text">
-            {t("hero.tagline")}
+            {t("homepage.hero.tagline")}
           </p>
           <a
             href="/resume.pdf"
             download
             className="my-10 inline-block w-fit border border-light-text dark:border-dark-text px-4 py-2 hover:bg-black hover:text-white transition"
           >
-            {t("hero.resume")}
+            {t("homepage.hero.resume")}
           </a>
         </article>
         <div className="hidden md:flex w-1/3 justify-center items-center">

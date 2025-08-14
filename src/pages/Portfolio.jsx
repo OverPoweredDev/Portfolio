@@ -1,16 +1,14 @@
-import Navbar from "../components/navbar/Navbar";
-import Hero from "../components/Hero";
-import ScrollHint from "../components/dividers/ScrollHint";
-import Projects from "../components/projects/Projects";
-import Timeline from "../components/Timeline";
-import Skills from "../components/Skills";
-import Line from "../components/dividers/Line";
-import Footer from "../components/Footer";
+import Hero from "../components/homepage/Hero";
+import ScrollHint from "../components/homepage/dividers/ScrollHint";
+import Timeline from "../components/homepage/Timeline";
+import Skills from "../components/homepage/Skills";
+import Line from "../components/homepage/dividers/Line";
+import Footer from "../components/homepage/Footer";
+import Projects from "../components/homepage/projects/Projects";
 
 export default function Portfolio() {
   return (
     <div className="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text font-mono">
-      <Navbar />
       <Hero />
       <ScrollHint />
       <Timeline />
