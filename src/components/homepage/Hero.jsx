@@ -50,7 +50,7 @@ export default function Hero() {
         </article>
         <div className="hidden md:flex w-1/3 justify-center items-center">
           <img
-            src={`${isDark ? heroBgSVG : heroSVG}`}
+            src={`${heroBgSVG}`}
             alt="Avatar"
             className="h-[650px] w-auto object-contain"
           />
