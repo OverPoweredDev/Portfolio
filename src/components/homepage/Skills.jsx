@@ -79,7 +79,7 @@ export default function Skills() {
       <div className="mt-12 mb-4 text-md font-bold">
         {t("homepage.skills.tools-and-frameworks")}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-40 gap-y-2 text-sm">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[10%] gap-y-2 text-sm">
         {toolsAndFrameworks.slice(0, 6).map(
           (
             skill // Show only 6 skills on mobile
@@ -105,12 +105,12 @@ export default function Skills() {
       <div className="mt-12 mb-4 text-md font-bold">
         {t("homepage.skills.programming-languages")}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-40 gap-y-2 text-sm">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[10%] gap-y-2 text-sm">
         {programmingLanguages.slice(0, 6).map(
           (
             skill // Show only 6 skills on mobile
           ) => (
-            <div key={skill.name} className="hidden md:flex justify-between">
+            <div key={skill.name} className="flex justify-between">
               <div className="w-40">{skill.name}</div>
               <div>{getBar(skill.level)}</div>
             </div>
@@ -131,12 +131,12 @@ export default function Skills() {
       <div className="mt-12 mb-4 text-md font-bold">
         {t("homepage.skills.technical-concepts")}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-40 gap-y-2 text-sm">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[10%] gap-y-2 text-sm">
         {technicalConcepts.slice(0, 6).map(
           (
             skill // Show only 6 skills on mobile
           ) => (
-            <div key={skill.name} className="hidden md:flex justify-between">
+            <div key={skill.name} className="flex justify-between">
               <div className="w-40">{skill.name}</div>
               <div>{getBar(skill.level)}</div>
             </div>
