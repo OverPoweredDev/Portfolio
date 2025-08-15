@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
 
-export default function Footer() {
+export default function Contact() {
   const { t } = useTranslation();
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -35,7 +35,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="mt-32 border-t-2 border-light-text dark:border-dark-text font-mono">
+    <div className="mt-32 border-t-2 border-light-text dark:border-dark-text font-mono">
       <div
         id="contact"
         className="max-w-6xl mx-auto grid md:grid-cols-2 gap-20 p-8"
@@ -131,10 +131,6 @@ export default function Footer() {
           </ul>
         </address>
       </div>
-
-      <div className="mt-12 text-center border-t border-light-text dark:border-dark-text py-4 text-xs md:text-sm">
-        omkarprabhune.com © 2025
-      </div>
-    </footer>
+    </div>
   );
 }

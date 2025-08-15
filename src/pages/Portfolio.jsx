@@ -3,7 +3,7 @@ import ScrollHint from "../components/homepage/dividers/ScrollHint";
 import Timeline from "../components/homepage/Timeline";
 import Skills from "../components/homepage/Skills";
 import Line from "../components/homepage/dividers/Line";
-import Footer from "../components/homepage/Footer";
+import Contact from "../components/homepage/Contact";
 import Projects from "../components/homepage/projects/Projects";
 
 export default function Portfolio() {
@@ -15,7 +15,7 @@ export default function Portfolio() {
       <Projects />
       <Line />
       <Skills />
-      <Footer />
+      <Contact />
     </div>
   );
 }
