@@ -72,7 +72,9 @@ export default function Skills() {
 
   return (
     <div id="skills" className="mx-20 mb-24 mt-4 font-mono whitespace-nowrap">
-      <div className="mb-6 text-3xl font-bold">{t("homepage.skills.tech-stack")}</div>
+      <div className="mb-6 text-3xl font-bold">
+        {t("homepage.skills.tech-stack")}
+      </div>
 
       <div className="mt-12 mb-4 text-md font-bold">
         {t("homepage.skills.tools-and-frameworks")}
