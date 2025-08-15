@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "about": "Profil",
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "contact": "Kontakt"
+  },
+  "homepage": {
+    "hero": {
+      "greeting": "Hallo, Ich bin Omkar.",
+      "tagline": "Zurzeit arbeite ich als Software Analyst bei der Deutschen Bank. In meiner Freizeit engagiere ich mich gerne in Open-Source-Projekten.",
+      "resume": "Lebenslauf herunterladen"
+    },
+    "skills": {
+      "tech-stack": "Technologiestack",
+      "tools-and-frameworks": "Werkzeuge & Frameworks",
+      "programming-languages": "Programmiersprachen",
+      "technical-concepts": "Technische Konzepte"
+    },
+    "contact": {
+      "send-me-a-message": "Schick mir eine Nachricht",
+      "find-me-online": "Finde mich online",
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "send-message": "Nachricht senden",
+      "sending-message": "Senden...",
+      "message-recieved": "Nachricht erhalten! Ich melde mich bald bei dir."
+    },
+    "footer": {
+      "built-with": "Erstellt mit React"
+    }
+  }
+}

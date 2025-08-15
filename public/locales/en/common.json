@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "homepage": {
+    "hero": {
+      "greeting": "Hello, I'm Omkar.",
+      "tagline": "Right now, I'm a Software Analyst at Deutsche Bank. I enjoy contributing to Open Source Projects in my spare time. Also a big fan of webnovels.",
+      "resume": "Download Resume"
+    },
+    "skills": {
+      "tech-stack": "Tech Stack",
+      "tools-and-frameworks": "Tools & Frameworks",
+      "programming-languages": "Programming Languages",
+      "technical-concepts": "Technical Concepts"
+    },
+    "contact": {
+      "send-me-a-message": "Send me a message",
+      "find-me-online": "Find me online",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send-message": "Send Message",
+      "sending-message": "Sending...",
+      "message-recieved": "Message received! I’ll get back to you soon."
+    },
+    "footer": {
+      "built-with": "Built with React"
+    }
+  }
+}

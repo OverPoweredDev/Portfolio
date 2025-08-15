@@ -1,34 +1,8 @@
 import { useTranslation } from "react-i18next";
+import { timelineData } from "../../data/Timeline";
 
 export default function Timeline() {
-  const { t } = useTranslation();
-
-  const timelineData = [
-    {
-      title: `${t("homepage.timeline.1.title")}`,
-      location: `${t("homepage.timeline.1.location")}`,
-      date: `${t("homepage.timeline.1.date")}`,
-      description: `${t("homepage.timeline.1.description")}`,
-    },
-    {
-      title: `${t("homepage.timeline.2.title")}`,
-      location: `${t("homepage.timeline.2.location")}`,
-      date: `${t("homepage.timeline.2.date")}`,
-      description: `${t("homepage.timeline.2.description")}`,
-    },
-    {
-      title: `${t("homepage.timeline.3.title")}`,
-      location: `${t("homepage.timeline.3.location")}`,
-      date: `${t("homepage.timeline.3.date")}`,
-      description: `${t("homepage.timeline.3.description")}`,
-    },
-    {
-      title: `${t("homepage.timeline.4.title")}`,
-      location: `${t("homepage.timeline.4.location")}`,
-      date: `${t("homepage.timeline.4.date")}`,
-      description: `${t("homepage.timeline.4.description")}`,
-    },
-  ];
+  const { t } = useTranslation("timeline");
 
   return (
     <section
@@ -64,10 +38,10 @@ export default function Timeline() {
                 }`}
               />
               <div className="ml-8">
-                <h3 className="font-bold text-base">{item.title}</h3>
-                <p className="text-sm opacity-80">{item.location}</p>
-                <p className="text-sm opacity-60 italic">{item.date}</p>
-                <p className="mt-2 text-sm max-w-5xl">{item.description}</p>
+                <h3 className="font-bold text-base">{t(item.title)}</h3>
+                <p className="text-sm opacity-80">{t(item.location)}</p>
+                <p className="text-sm opacity-60 italic">{t(item.date)}</p>
+                <p className="mt-2 text-sm max-w-5xl">{t(item.description)}</p>
               </div>
             </article>
           ))}

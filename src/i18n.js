@@ -1,29 +1,31 @@
 // src/i18n.js
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-
-import en from "./locales/en.json";
-import de from "./locales/de.json";
+import Backend from "i18next-http-backend";
 
 const savedLang = localStorage.getItem("lang") || "en";
 
 i18n
+  .use(Backend)
   .use(initReactI18next)
   .init({
-    resources: {
-      en: { translation: en },
-      de: { translation: de }
-    },
     lng: savedLang,
     fallbackLng: "en",
+    debug: true,
+
+    ns: ["common", "projects"],
+    defaultNS: "common",
+
     interpolation: {
-      escapeValue: false
-    }
+      escapeValue: false,
+    },
+    backend: {
+      loadPath: "/locales/{{lng}}/{{ns}}.json",
+    },
   });
 
-// Save language change to localStorage
 i18n.on("languageChanged", (lng) => {
-    localStorage.setItem("lang", lng);
-  });
+  localStorage.setItem("lang", lng);
+});
 
 export default i18n;

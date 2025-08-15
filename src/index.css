@@ -15,7 +15,8 @@
   animation: blink 1s steps(2, start) infinite;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   scroll-behavior: smooth;

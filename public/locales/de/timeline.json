@@ -1,0 +1,32 @@
+{
+  "stuttgart-msc": {
+    "title": "Master's in Informatik",
+    "location": "Universität Stuttgart",
+    "date": "October 2025 -> Gegenwart",
+    "description": "Derzeit absolviere ich meinen Master in Informatik an der Universität Stuttgart. Drückt mir die Daumen!"
+  },
+  "db-analyst": {
+    "title": "Senior Software Analyst",
+    "location": "Deutsche Bank",
+    "date": "Juli 2023 -> August 2025",
+    "description": "Ich arbeitete als Senior Software Analyst bei der Deutschen Bank, wo ich an der Entwicklung und Wartung von Softwarelösungen für die Bankprozesse beteiligt war. Meine Aufgaben umfassten die Zusammenarbeit mit funktionsübergreifenden Teams, um hochwertige Softwareprodukte zu liefern."
+  },
+  "vit-btech": {
+    "title": "Bachelor's in Computer Engineering",
+    "location": "Vishwakarma Institute of Technology",
+    "date": "Juli 2019 -> Mai 2023",
+    "description": "Ich habe Computertechnik mit Schwerpunkt auf Softwareentwicklung und maschinelles Lernen studiert. Nach vier Jahren Studium habe ich mit einem GPA von 9,91 abgeschlossen und wurde als Bester Absolvent meines Jahrgangs ausgezeichnet."
+  },
+  "db-intern": {
+    "title": "Softwarepraktikant",
+    "location": "Deutsche Bank",
+    "date": "Juli 2022 -> August 2022",
+    "description": "Ich arbeitete als Praktikant an Projekten (Entwicklung und Produktion) im Bereich Treasury Technology mit. Dabei konnte ich moderne Technologien aus den Bereichen Webentwicklung, Systemdesign und Datenbankverwaltung kennenlernen."
+  },
+  "gsoc": {
+    "title": "Open-Source-Freiwilliger",
+    "location": "Google Summer of Code, Apertium",
+    "date": "Mai 2021 -> Juli 2021",
+    "description": "Mein Projekt bestand darin, die Apertium Web Extension zu entwickeln – eine browserübergreifende Erweiterung, die als Schnittstelle für den Übersetzungsdienst Apertium dient. Sie ermöglicht die Übersetzung von Wörtern, Sätzen, ganzen Webseiten sowie eine schnelle Übersetzung per Hover-Effekt."
+  }
+}

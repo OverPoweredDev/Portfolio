@@ -1,0 +1,26 @@
+{
+  "portfolio": {
+    "title": "Dieses Portfolio",
+    "description": "Eine einseitige Website im Terminal-Stil, gebaut mit React und Tailwind.",
+    "tech": "React, Tailwind, Vite",
+    "link": "https://yourportfolio.com"
+  },
+  "junior": {
+    "title": "Junior",
+    "description": "Junior ist eine Bookmarking-App speziell für Online-Webnovels. Die App ist Open Source, für Android verfügbar und wurde mit Flutter und Dart entwickelt. Sie hilft dabei, den Lesefortschritt festzuhalten, Bewertungen zu speichern und Notizen zu einzelnen Kapiteln zu machen.",
+    "tech": "Flutter, Dart, Android",
+    "link": "https://github.com/OverPoweredDev/Junior"
+  },
+  "apertium-webext": {
+    "title": "Apertium WebExt",
+    "description": "Eine browserübergreifende WebExtension-Oberfläche für den Apertium-APy-Dienst. Apertium ist ein Open-Source-Projekt für maschinelle Übersetzung, das ursprünglich für verwandte Sprachen gedacht war, aber inzwischen auch entferntere Sprachpaare unterstützt. Diese Erweiterung ermöglicht die Übersetzung von Wörtern, Sätzen und ganzen Webseiten.",
+    "tech": "JavaScript, HTML, CSS",
+    "link": "https://github.com/apertium/apertium-webext"
+  },
+  "dope": {
+    "title": "Dope",
+    "description": "Dope ist eine dynamisch typisierte, automatisch verwaltete Programmiersprache mit objektorientiertem und imperativem Paradigma. Sie kann sowohl über Textdateien als auch über eine REPL-Shell (Read, Execute, Print, Loop) genutzt werden. Die in Java geschriebene Sprache läuft auf der Java Virtual Machine (JVM) und verwendet den integrierten Garbage Collector. Der Interpreter basiert auf einem rekursiven Tree-Walk-Ansatz.",
+    "tech": "Java",
+    "link": "https://github.com/OverPoweredDev/dope"
+  }
+}

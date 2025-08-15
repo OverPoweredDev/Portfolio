@@ -9,9 +9,7 @@ function App() {
       <div className="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text font-mono">
         <Navbar />
         <Routes>
-          {/* Default portfolio page */}
           <Route path="/" element={<Portfolio />} />
-          {/* 404 Not Found page */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

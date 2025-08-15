@@ -1,13 +1,10 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { useTheme } from "../../components/ThemeContext";
 
-import heroSVG from "../../assets/hero.svg";
-import heroBgSVG from "../../assets/hero-bg.svg";
+import heroSVG from "../../assets/hero-bg.svg";
 
 export default function Hero() {
   const [typedText, setTypedText] = useState("H");
-  const { isDark } = useTheme();
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -50,7 +47,7 @@ export default function Hero() {
         </article>
         <div className="hidden md:flex w-1/3 justify-center items-center">
           <img
-            src={`${heroBgSVG}`}
+            src={`${heroSVG}`}
             alt="Avatar"
             className="h-[650px] w-auto object-contain"
           />
