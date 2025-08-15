@@ -3,7 +3,8 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import Backend from "i18next-http-backend";
 
-const savedLang = localStorage.getItem("lang") || "en";
+const savedLang =
+  localStorage.getItem("lang") || navigator.language?.split("-")[0] || "en";
 
 i18n
   .use(Backend)

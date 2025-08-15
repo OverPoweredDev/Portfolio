@@ -1,5 +1,6 @@
 import LanguageToggle from "./LanguageToggle";
 import ThemeToggle from "./ThemeToggle";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
@@ -13,6 +14,26 @@ export default function Navbar() {
         </h1>
 
         <ul className="flex items-center gap-6 text-sm">
+          <li>
+            <Link to="/" className="hover:underline">
+              {t("navbar.about")}
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects" className="hover:underline">
+              {t("navbar.projects")}
+            </Link>
+          </li>
+          <li>
+            <a className="hover:underline" href="/resume.pdf" download>
+              {t("navbar.resume")}
+            </a>
+          </li>
+          <li>
+            <div className="w-[0.25px] border-l border-light-text dark:border-dark-text">
+              &nbsp;
+            </div>
+          </li>
           <li>
             <ThemeToggle />
           </li>

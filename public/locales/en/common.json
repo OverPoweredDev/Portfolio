@@ -2,13 +2,13 @@
   "navbar": {
     "about": "About",
     "projects": "Projects",
-    "skills": "Skills",
+    "resume": "Resume",
     "contact": "Contact"
   },
   "homepage": {
     "hero": {
       "greeting": "Hello, I'm Omkar.",
-      "tagline": "Right now, I'm a Software Analyst at Deutsche Bank. I enjoy contributing to Open Source Projects in my spare time. Also a big fan of webnovels.",
+      "tagline": "Right now, I'm a Master's Student at the University of Stuttgart. Most recently, I was an Analyst at Deutsche Bank. I also enjoy contributing to Open Source Projects in my spare time.",
       "resume": "Download Resume"
     },
     "skills": {

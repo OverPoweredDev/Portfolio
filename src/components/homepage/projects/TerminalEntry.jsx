@@ -23,7 +23,7 @@ export default function TerminalEntry({ title, description, tech, link }) {
               rel="noopener noreferrer"
               className="text-black hover:underline"
             >
-              [ view project ]
+              [ view project in detail ]
             </a>
           </div>
         </div>

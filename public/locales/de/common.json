@@ -2,13 +2,13 @@
   "navbar": {
     "about": "Profil",
     "projects": "Projekte",
-    "skills": "Fähigkeiten",
+    "resume": "Lebenslauf",
     "contact": "Kontakt"
   },
   "homepage": {
     "hero": {
       "greeting": "Hallo, Ich bin Omkar.",
-      "tagline": "Zurzeit arbeite ich als Software Analyst bei der Deutschen Bank. In meiner Freizeit engagiere ich mich gerne in Open-Source-Projekten.",
+      "tagline": "Zurzeit studiere ich im Master an der Universität Stuttgart. Zuletzt war ich als Analyst bei der Deutschen Bank tätig. In meiner Freizeit engagiere ich mich außerdem gerne in Open-Source-Projekten.",
       "resume": "Lebenslauf herunterladen"
     },
     "skills": {
