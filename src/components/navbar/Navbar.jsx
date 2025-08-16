@@ -20,6 +20,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link to="/contact" className="hover:underline">
+              {t("navbar.contact")}
+            </Link>
+          </li>
+          <li>
             <a className="hover:underline" href="/resume.pdf" download>
               {t("navbar.resume")}
             </a>
