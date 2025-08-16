@@ -20,12 +20,6 @@ export default function Projects() {
     setRevealedCount(revealedCount + 1);
   };
 
-  console.log("Visible Projects:", visibleProjects);
-  console.log("Hidden Projects:", hiddenProjects);
-  console.log("Revealed Count:", revealedCount);
-  // Only the last revealed hidden project should type, others should be static
-  // const lastTypingIdx = revealedCount - 1;
-
   return (
     <section id="projects" className="py-12 px-4">
       <TerminalWindow>
