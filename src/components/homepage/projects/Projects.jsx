@@ -2,6 +2,7 @@ import TerminalWindow from "./TerminalWindow";
 import TerminalEntry from "./TerminalEntry";
 import { projectList } from "../../../data/Projects";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   const { t } = useTranslation("projects");
@@ -21,14 +22,9 @@ export default function Projects() {
         ))}
 
         <pre className="whitespace-pre-wrap text-sm font-mono">
-          <a
-            href="/projects"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-black hover:underline"
-          >
-            &gt; see all projects
-          </a>
+          <Link to="/projects" className="hover:underline">
+            {t("see-all-projects")}
+          </Link>
           <br />
           <br />
           <span className="animate-blink">&gt; </span>

@@ -30,7 +30,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <div className="w-[0.25px] border-l border-light-text dark:border-dark-text">
+            <div className="w-[0.25px] border-l select-none cursor-default border-light-text dark:border-dark-text">
               &nbsp;
             </div>
           </li>

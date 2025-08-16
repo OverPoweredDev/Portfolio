@@ -22,5 +22,6 @@
     "description": "Dope ist eine dynamisch typisierte, automatisch verwaltete Programmiersprache mit objektorientiertem und imperativem Paradigma. Sie kann sowohl über Textdateien als auch über eine REPL-Shell (Read, Execute, Print, Loop) genutzt werden. Die in Java geschriebene Sprache läuft auf der Java Virtual Machine (JVM) und verwendet den integrierten Garbage Collector. Der Interpreter basiert auf einem rekursiven Tree-Walk-Ansatz.",
     "tech": "Java",
     "link": "https://github.com/OverPoweredDev/dope"
-  }
+  },
+  "see-all-projects": "> alle projekte ansehen"
 }
