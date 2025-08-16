@@ -1,27 +1,27 @@
 {
   "portfolio": {
     "title": "This Portfolio",
-    "description": "A one-page terminal-style site built with React and Tailwind.",
-    "tech": "React, Tailwind, Vite",
-    "link": "https://yourportfolio.com"
+    "description": "A one-page terminal-style site built with React and Tailwind."
   },
   "junior": {
     "title": "Junior",
-    "description": "Junior is a bookmarking app specialised towards online webnovels. Built in Flutter and Dart, it is an open-source Android app that helps you catalogue the novel you're reading and your progress on it. Apart from these details, you can also log your personal rating and any chapter notes for the current novel.",
-    "tech": "Flutter, Dart, Android",
-    "link": "https://github.com/OverPoweredDev/Junior"
+    "description": "Junior is a bookmarking app specialised towards online webnovels. Built in Flutter and Dart, it is an open-source Android app that helps you catalogue the novel you're reading and your progress on it. Apart from these details, you can also log your personal rating and any chapter notes for the current novel."
   },
   "apertium-webext": {
     "title": "Apertium WebExt",
-    "description": "A Cross-browser WebExtension Frontend for the Apertium APy service. Apertium is a Open Source machine translation organisation, aimed at related-language pairs but expanded to deal with more divergent language pairs. This extension deals with translation of words, phrases and entire webpages.",
-    "tech": "JavaScript, HTML, CSS",
-    "link": "https://github.com/apertium/apertium-webext"
+    "description": "A Cross-browser WebExtension Frontend for the Apertium APy service. Apertium is a Open Source machine translation organisation, aimed at related-language pairs but expanded to deal with more divergent language pairs. This extension deals with translation of words, phrases and entire webpages."
   },
   "dope": {
     "title": "Dope",
-    "description": "Dope is a dynamically typed, automatically managed programming language with an Object Oriented Paradigm as well as an Imperative one. It can be run either on a text file or through using the REPL (Read, Execute, Print, Loop) Shell. Implemented in Java, it operates on the Java Virtual Machine (JVM) and also uses the inbuilt Garbage Collector built into the VM. The interpreter itself runs using a recursive tree-walk approach.",
-    "tech": "Java",
-    "link": "https://github.com/OverPoweredDev/dope"
+    "description": "Dope is a dynamically typed, automatically managed programming language with an Object Oriented Paradigm as well as an Imperative one. It can be run either on a text file or through using the REPL (Read, Execute, Print, Loop) Shell. Implemented in Java, it operates on the Java Virtual Machine (JVM) and also uses the inbuilt Garbage Collector built into the VM. The interpreter itself runs using a recursive tree-walk approach."
   },
-  "see-all-projects": "> see all projects"
+  "loop": {
+    "title": "Loop",
+    "description": "A simple text editor made for a college project using C++ and SFML for window generation and graphics."
+  },
+  "wordlink": {
+    "title": "Wordlink",
+    "description": "A NLP research project focused on establishing a mathematical relation between word pairs to improve the performance of word embeddings."
+  },
+  "see-all-projects": "see all projects"
 }

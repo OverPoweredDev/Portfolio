@@ -1,33 +1,66 @@
+import { useState } from "react";
 import TerminalWindow from "./TerminalWindow";
 import TerminalEntry from "./TerminalEntry";
 import { projectList } from "../../../data/Projects";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 
 export default function Projects() {
   const { t } = useTranslation("projects");
+  const visibleProjects = projectList.filter((project) => project.visible);
+  const hiddenProjects = projectList.filter(
+    (project) => project.visible === false
+  );
+
+  const [revealedCount, setRevealedCount] = useState(0);
+  const [showAllProjects, setShowAllProjects] = useState(false);
+
+  const handleShowMore = () => {
+    if (revealedCount >= hiddenProjects.length) return;
+    setShowAllProjects(true);
+    setRevealedCount(revealedCount + 1);
+  };
+
+  console.log("Visible Projects:", visibleProjects);
+  console.log("Hidden Projects:", hiddenProjects);
+  console.log("Revealed Count:", revealedCount);
+  // Only the last revealed hidden project should type, others should be static
+  // const lastTypingIdx = revealedCount - 1;
 
   return (
     <section id="projects" className="py-12 px-4">
       <TerminalWindow>
-        {projectList.map((proj, idx) => (
+        {visibleProjects.map((proj, idx) => (
           <article key={idx}>
             <TerminalEntry
               title={t(proj.title)}
               description={t(proj.description)}
               tech={t(proj.tech)}
               link={t(proj.link)}
+              typing={false}
+            />
+          </article>
+        ))}
+
+        {hiddenProjects.slice(0, revealedCount).map((proj, idx) => (
+          <article key={`hidden-${idx}`}>
+            <TerminalEntry
+              title={t(proj.title)}
+              description={t(proj.description)}
+              tech={t(proj.tech)}
+              link={t(proj.link)}
+              typing={idx === revealedCount - 1}
+              onDone={() => handleShowMore()}
             />
           </article>
         ))}
 
         <pre className="whitespace-pre-wrap text-sm font-mono">
-          <Link to="/projects" className="hover:underline">
-            {t("see-all-projects")}
-          </Link>
-          <br />
-          <br />
           <span className="animate-blink">&gt; </span>
+          {revealedCount < hiddenProjects.length && !showAllProjects && (
+            <button className="hover:underline" onClick={handleShowMore}>
+              {t("see-all-projects")}
+            </button>
+          )}
         </pre>
       </TerminalWindow>
     </section>

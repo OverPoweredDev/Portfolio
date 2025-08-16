@@ -12,7 +12,7 @@ i18n
   .init({
     lng: savedLang,
     fallbackLng: "en",
-    debug: true,
+    debug: false,
 
     ns: ["common", "projects"],
     defaultNS: "common",
