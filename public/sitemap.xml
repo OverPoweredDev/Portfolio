@@ -1,56 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main domain -->
+  <!-- Homepage -->
   <url>
     <loc>https://omkarprabhune.com/</loc>
-    <lastmod>2025-04-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Alternative routes for homepage -->
   <url>
-    <loc>https://omkarprabhune.com/#about</loc>
-    <lastmod>2025-04-15</lastmod>
+    <loc>https://omkarprabhune.com/home</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://omkarprabhune.com/#projects</loc>
-    <lastmod>2025-04-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://omkarprabhune.com/#skills</loc>
-    <lastmod>2025-04-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://omkarprabhune.com/#contact</loc>
-    <lastmod>2025-04-15</lastmod>
+    <loc>https://omkarprabhune.com/about</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Subdomain -->
+  <!-- Links/Contact page -->
   <url>
-    <loc>https://www.omkarprabhune.com/</loc>
-    <lastmod>2025-04-15</lastmod>
-    <priority>1.0</priority>
+    <loc>https://omkarprabhune.com/links</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.omkarprabhune.com/#about</loc>
-    <lastmod>2025-04-15</lastmod>
-    <priority>0.8</priority>
+    <loc>https://omkarprabhune.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.omkarprabhune.com/#projects</loc>
-    <lastmod>2025-04-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.omkarprabhune.com/#skills</loc>
-    <lastmod>2025-04-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.omkarprabhune.com/#contact</loc>
-    <lastmod>2025-04-15</lastmod>
-    <priority>0.8</priority>
+    <loc>https://omkarprabhune.com/linktree</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

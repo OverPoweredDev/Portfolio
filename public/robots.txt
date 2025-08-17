@@ -4,4 +4,3 @@ Allow: /
 
 # Specify the sitemap for search engines
 Sitemap: https://omkarprabhune.com/sitemap.xml
-Sitemap: https://www.omkarprabhune.com/sitemap.xml
