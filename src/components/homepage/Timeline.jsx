@@ -7,7 +7,7 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="mt-4 relative font-mono container overflow-hidden mx-auto"
+      className="mt-4 relative font-mono overflow-hidden mx-auto"
     >
       <div className="relative flex flex-col items-start">
         <div className="flex items-start">
