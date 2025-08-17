@@ -1,11 +1,11 @@
 export default function TerminalWindow({ children }) {
   return (
-    <div className="bg-white border-2 border-light-terminal dark:border-dark-terminal rounded-lg max-w-6xl mx-auto mt-16 overflow-hidden">
+    <div className="bg-white border-2 border-light-terminal dark:border-dark-terminal rounded-lg max-w-6xl mx-auto sm:mt-16 overflow-hidden">
       <div className="bg-light-terminal dark:bg-dark-terminal text-white px-4 py-2 flex items-center justify-start space-x-2 text-sm font-mono">
-        <span className="w-3 h-3 bg-white rounded-full"></span>
-        <span className="w-3 h-3 bg-white rounded-full"></span>
-        <span className="w-3 h-3 bg-white rounded-full"></span>
-        <span className="ml-6 pl-4 font-bold">
+        <span className="hidden sm:block w-3 h-3 bg-white rounded-full"></span>
+        <span className="hidden sm:block w-3 h-3 bg-white rounded-full"></span>
+        <span className="hidden sm:block w-3 h-3 bg-white rounded-full"></span>
+        <span className="sm:ml-6 sm:pl-4 font-bold">
           projects@omkarprabhune.com:~
         </span>
       </div>

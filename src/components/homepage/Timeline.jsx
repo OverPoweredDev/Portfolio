@@ -7,7 +7,7 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="mt-4 relative font-mono max-w-screen overflow-hidden"
+      className="mt-4 relative font-mono container overflow-hidden mx-auto"
     >
       <div className="relative flex flex-col items-start">
         <div className="flex items-start">
@@ -41,7 +41,9 @@ export default function Timeline() {
                 <h3 className="font-bold text-base">{t(item.title)}</h3>
                 <p className="text-sm opacity-80">{t(item.location)}</p>
                 <p className="text-sm opacity-60 italic">{t(item.date)}</p>
-                <p className="mt-2 text-sm max-w-5xl">{t(item.description)}</p>
+                <p className="hidden md:block mt-2 text-sm max-w-5xl">
+                  {t(item.description)}
+                </p>
               </div>
             </article>
           ))}

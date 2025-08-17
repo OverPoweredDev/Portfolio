@@ -25,31 +25,31 @@ export default function Hero() {
   }, [t]);
 
   return (
-    <main>
+    <main className=" w-full">
       <section
         id="about"
-        className="hero-section flex md:h-[90vh] justify-between items-center px-12 bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text pt-20"
+        className="hero-section flex flex-col md:flex-row md:h-[90vh] items-center w-full max-w-[100vw] px-3 sm:px-4 md:px-12 bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text pt-16 md:pt-20"
       >
-        <article className="flex flex-col justify-center md:pr-8 w-full md:w-2/3">
-          <h2 className="text-2xl font-bold md:text-5xl md:font-normal font-mono my-14">
+        <article className="flex flex-col justify-center w-full md:w-2/3 max-w-full">
+          <h2 className="text-xl md:text-2xl lg:text-5xl font-bold md:font-normal font-mono my-6 md:my-14 break-words">
             {typedText}
           </h2>
-          <p className="text-md md:text-xl font-mono border-l-4 pl-4 border-light-text dark:border-dark-text">
+          <p className="text-sm md:text-md lg:text-xl font-mono border-l-4 pl-4 border-light-text dark:border-dark-text max-w-full break-words">
             {t("homepage.hero.tagline")}
           </p>
           <a
             href="/resume.pdf"
             download
-            className="my-10 inline-block w-fit border border-light-text dark:border-dark-text px-4 py-2 hover:bg-black hover:text-white transition"
+            className="my-6 md:my-10 inline-block w-fit border border-light-text dark:border-dark-text px-3 py-1 md:px-4 md:py-2 hover:bg-black hover:text-white transition text-sm md:text-base"
           >
             {t("homepage.hero.resume")}
           </a>
         </article>
         <div className="hidden md:flex w-1/3 justify-center items-center">
           <img
-            src={`${heroSVG}`}
+            src={heroSVG}
             alt="Avatar"
-            className="h-[650px] w-auto object-contain"
+            className="h-[450px] lg:h-[650px] w-auto object-contain"
           />
         </div>
       </section>

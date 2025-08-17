@@ -8,7 +8,7 @@ import Projects from "../components/homepage/projects/Projects";
 
 export default function Portfolio() {
   return (
-    <div className="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text font-mono">
+    <div className="w-full mx-auto bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text font-mono">
       <Hero />
       <ScrollHint />
       <Timeline />

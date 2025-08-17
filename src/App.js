@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text font-mono">
+      <div className="min-h-screen overflow-x-hidden flex flex-col bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text font-mono">
         <Navbar />
         <main className="flex-1 flex items-center justify-center">
           <Routes>

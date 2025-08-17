@@ -71,7 +71,10 @@ export default function Skills() {
   const { t } = useTranslation();
 
   return (
-    <div id="skills" className="mx-40 mb-24 mt-4 font-mono whitespace-nowrap">
+    <div
+      id="skills"
+      className="mx-8 sm:mx-40 mb-24 mt-4 font-mono whitespace-nowrap"
+    >
       <div className="mb-6 text-3xl font-bold">
         {t("homepage.skills.tech-stack")}
       </div>

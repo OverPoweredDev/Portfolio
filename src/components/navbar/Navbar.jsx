@@ -15,22 +15,26 @@ export default function Navbar() {
 
         <ul className="flex items-center gap-6 text-sm">
           <li>
-            <Link to="/" className="hover:underline">
+            <Link to="/" className="hidden md:block hover:underline">
               {t("navbar.about")}
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:underline">
+            <Link to="/contact" className="hidden md:block hover:underline">
               {t("navbar.contact")}
             </Link>
           </li>
           <li>
-            <a className="hover:underline" href="/resume.pdf" download>
+            <a
+              className="hidden md:block hover:underline"
+              href="/resume.pdf"
+              download
+            >
               {t("navbar.resume")}
             </a>
           </li>
           <li>
-            <div className="w-[0.25px] border-l select-none cursor-default border-light-text dark:border-dark-text">
+            <div className="hidden md:block w-[0.25px] border-l select-none cursor-default border-light-text dark:border-dark-text">
               &nbsp;
             </div>
           </li>
