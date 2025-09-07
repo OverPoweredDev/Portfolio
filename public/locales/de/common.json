@@ -25,7 +25,8 @@
       "message": "Nachricht",
       "send-message": "Nachricht senden",
       "sending-message": "Senden...",
-      "message-recieved": "Nachricht erhalten! Ich melde mich bald bei dir."
+      "message-recieved": "Nachricht erhalten! Ich melde mich bald bei dir.",
+      "go-to-main": "Zur Hauptseite gehen"
     },
     "footer": {
       "built-with": "Erstellt mit React"

@@ -25,7 +25,8 @@
       "message": "Message",
       "send-message": "Send Message",
       "sending-message": "Sending...",
-      "message-recieved": "Message received! I’ll get back to you soon."
+      "message-recieved": "Message received! I’ll get back to you soon.",
+      "go-to-main": "Go to main site"
     },
     "footer": {
       "built-with": "Built with React"
